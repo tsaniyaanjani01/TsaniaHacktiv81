@@ -10,7 +10,7 @@ function portofolio() {
     var alamat = document.getElementById("alamat")
     var lokasi = document.getElementById("lokasi").value
     var tahun = document.getElementById("tahun")
-    var experience = document.getElementById("tahun").value
+    var experience = document.getElementById("experience").value
     var gmail = document.getElementById("gmail")
     var email = document.getElementById("email").value
     outname.innerText = nama
