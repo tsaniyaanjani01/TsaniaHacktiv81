@@ -10,7 +10,7 @@ function portofolio() {
     var alamat = document.getElementById("alamat")
     var lokasi = document.getElementById("lokasi").value
     var tahun = document.getElementById("tahun")
-    var year = document.getElementById("tahun").value
+    var experience = document.getElementById("tahun").value
     var gmail = document.getElementById("gmail")
     var email = document.getElementById("email").value
     outname.innerText = nama
@@ -18,13 +18,13 @@ function portofolio() {
     ada.innerText = availability
     umur.innerText = usia
     alamat.innerText = lokasi
-    tahun.innerText = year
+    tahun.innerText = experience
     gmail.innerText = email
     nama.value = ""
     role.value = ""
     availability.value = ""
     usia.value = ""
     lokasi.value = ""
-    year.value = ""
+    experience.value = ""
     email.value = ""
 }
